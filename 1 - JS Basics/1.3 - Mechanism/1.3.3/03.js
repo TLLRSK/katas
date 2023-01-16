@@ -7,5 +7,6 @@ const userList = [
 ];
 
 // 👇🏻 Añade tu lógica aquí utilizando la función find
-
+const userArr = userList.filter((user) => user.age === 26).map((user) => user.name);
+console.log(userArr);
 // 👆🏻

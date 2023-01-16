@@ -7,5 +7,6 @@ const tweets = [
     { author: 'carlos', text: 'Tengo 30 años', likes: 8 },
 ];
 
+
 // Utiliza un bucle para recorrer los tweets y modificar el html
 // Recuerda que innerHTML REEMPLAZA Y NO AÑADE, por lo que tendras que ir construyendo el texto

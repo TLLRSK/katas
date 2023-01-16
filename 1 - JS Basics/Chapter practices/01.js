@@ -14,9 +14,17 @@ const list = [
 ];
 
 // 👇🏻 Define aquí la función
-
+const showtopics = (a) => {
+  const result = list.find((user) => user.name === a);
+  if (result.role === 'student') {
+    return console.log(result.topics);
+  }
+  return console.log('El usuario es un profesor');
+};
 // 👆🏻
 
 // 👇🏻 Invoca la función con los usuarios "Carlos", "Maria" y "Pepe"
-
+showtopics('Carlos');
+showtopics('Maria');
+showtopics('Pepe');
 // 👆🏻

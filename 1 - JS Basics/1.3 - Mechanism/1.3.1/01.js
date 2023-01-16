@@ -3,6 +3,13 @@
 
 const isGreatherThan5 = (number) => {
   // 👇🏻 Añade tu lógica aquí
+  let result = '';
+  if (number > 5) {
+    result = 'MAYOR';
+  } else {
+    result = 'MENOR';
+  }
+  return result;
   // 👆🏻
 };
 

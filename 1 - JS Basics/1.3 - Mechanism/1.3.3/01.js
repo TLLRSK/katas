@@ -6,5 +6,6 @@ const userList = [
 ];
 
 // 👇🏻 Añade tu lógica aquí utilizando la función map
-
+const userArr = userList.map((user) => user.name);
+console.log(userArr);
 // 👆🏻

@@ -1,7 +1,7 @@
 // Crea una función que muestre la suma de todos los números presentes en el array
 const sumNumbers = (numberList) => {
   // Utiliza esta variable para ir acumulando la suma
-  let counter = 0;
+  return numberList.reduce((counter, number) => counter + number, 0);
   // 👇🏻 Añade tu lógica aquí
 
   // 👆🏻

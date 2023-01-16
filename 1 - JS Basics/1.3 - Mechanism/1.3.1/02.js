@@ -1,7 +1,10 @@
 // Crea una función transformer el texto a mayusculas si la longitud del texto es igual a 3
 const capitalize3SizeStrings = (text) => {
   // 👇🏻 Añade tu lógica aquí
-
+  if (text.length === 3){
+    text = text.toUpperCase();
+  }
+  return text;
   // 👆🏻
 };
 
